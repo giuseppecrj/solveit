@@ -21,6 +21,8 @@ elif tool == "Write":
     text = ti.get("content", "")
 elif tool == "MultiEdit":
     text = "\n".join(e.get("new_string", "") for e in ti.get("edits", []))
+elif tool == "apply_patch":
+    text = ti.get("command", "")
 else:
     sys.exit(0)
 
