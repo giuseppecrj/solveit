@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "solveit",
-      "source": ".",
+      "source": "./",
       "description": "Strict Solveit-method workflow for coding tasks — small verified checkpoints, narrow diffs, human-in-the-loop control."
     }
   ]
